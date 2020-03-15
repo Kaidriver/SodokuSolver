@@ -25,7 +25,7 @@ function isValid(matrix, num, row, col) {
     }
   }
 
-  var rowDisp = [-1, 0, 1, -1, 1, 1, 0, 1, 0];
+  var rowDisp = [-1, 0, 1, -1, 1, -1, 0, 1, 0];
   var colDisp = [-1, -1, -1, 0, 0, 1, 1, 1, 0];
   for (var i = 0; i < rowDisp.length; i++) {
     if (matrix[cRow + rowDisp[i]][cCol + colDisp[i]] == num) {
